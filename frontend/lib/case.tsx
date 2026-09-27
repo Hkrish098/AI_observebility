@@ -24,9 +24,11 @@ type CaseContextValue = {
   sessionId: string;
   posts: Post[];
   latest: ChatResponse | null;
+  selectedId: string | null;
   pending: boolean;
   error: string | null;
   postTweet: (raw: string) => Promise<void>;
+  selectRun: (id: string) => void;
 };
 
 const CaseContext = createContext<CaseContextValue | null>(null);
@@ -34,9 +36,15 @@ const CaseContext = createContext<CaseContextValue | null>(null);
 export function CaseProvider({ children }: { children: ReactNode }) {
   const sessionId = useMemo(() => crypto.randomUUID(), []);
   const [posts, setPosts] = useState<Post[]>([]);
-  const [latest, setLatest] = useState<ChatResponse | null>(null);
+  const [runs, setRuns] = useState<Record<string, ChatResponse>>({});
+  const [selectedId, setSelectedId] = useState<string | null>(null);
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const latest = selectedId ? (runs[selectedId] ?? null) : null;
+
+  function selectRun(id: string) {
+    if (runs[id]) setSelectedId(id);
+  }
 
   async function postTweet(raw: string) {
     const text = raw.trim();
@@ -56,7 +64,8 @@ export function CaseProvider({ children }: { children: ReactNode }) {
     ]);
     try {
       const result = await sendChat(text, sessionId);
-      setLatest(result);
+      setRuns((current) => ({ ...current, [result.trace_id]: result }));
+      setSelectedId(result.trace_id);
       setPosts((current) => [
         ...current,
         {
@@ -78,7 +87,9 @@ export function CaseProvider({ children }: { children: ReactNode }) {
   }
 
   return (
-    <CaseContext.Provider value={{ sessionId, posts, latest, pending, error, postTweet }}>
+    <CaseContext.Provider
+      value={{ sessionId, posts, latest, selectedId, pending, error, postTweet, selectRun }}
+    >
       {children}
     </CaseContext.Provider>
   );
