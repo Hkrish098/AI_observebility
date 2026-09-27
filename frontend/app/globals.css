@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f7f7f5;
+  --ink: #0f1419;
+  --mute: #536471;
+  --line: #eff3f4;
+  --card: #ffffff;
+  --accent: #1d9bf0;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-mute: var(--mute);
+  --color-line: var(--line);
+  --color-card: var(--card);
+  --color-accent: var(--accent);
+}
+
+html,
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+::selection {
+  background: #d3eaf8;
+}
+
+input,
+button,
+textarea {
+  font: inherit;
+}

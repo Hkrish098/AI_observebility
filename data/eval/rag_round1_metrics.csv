@@ -1,0 +1,251 @@
+tweet_id,gold_intent,pred_intent,intent_match,gold_route,pred_route,route_match,top1_similarity,escalate_hit,reason
+19427,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.267,False,No close historical AmazonHelp reply
+205714,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.353,False,No close historical AmazonHelp reply
+262178,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.2,False,No close historical AmazonHelp reply
+317718,other,shipping_inquiry,False,escalate,escalate,True,0.385,True,No close historical AmazonHelp reply
+77319,delivery_failed,shipping_inquiry,False,escalate,escalate,True,0.222,True,No close historical AmazonHelp reply
+671638,shipping_inquiry,shipping_inquiry,True,escalate,escalate,True,0.2,True,No close historical AmazonHelp reply
+365197,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.375,False,No close historical AmazonHelp reply
+364682,return_refund,shipping_inquiry,False,escalate,escalate,True,0.238,True,No close historical AmazonHelp reply
+529990,other,shipping_inquiry,False,escalate,escalate,True,0.385,True,No close historical AmazonHelp reply
+158718,other,shipping_inquiry,False,auto,escalate,False,0.364,False,No close historical AmazonHelp reply
+371853,product_quality,shipping_inquiry,False,auto,escalate,False,0.333,False,No close historical AmazonHelp reply
+170932,return_refund,shipping_inquiry,False,escalate,escalate,True,0.333,True,No close historical AmazonHelp reply
+400341,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.192,False,No close historical AmazonHelp reply
+219005,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.269,False,No close historical AmazonHelp reply
+24559,delivery_failed,shipping_inquiry,False,escalate,escalate,True,0.267,True,No close historical AmazonHelp reply
+278717,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.25,False,No close historical AmazonHelp reply
+310572,other,shipping_inquiry,False,auto,escalate,False,0.267,False,No close historical AmazonHelp reply
+573959,other,shipping_inquiry,False,auto,escalate,False,0.25,False,No close historical AmazonHelp reply
+661470,delivery_failed,shipping_inquiry,False,escalate,escalate,True,0.25,True,No close historical AmazonHelp reply
+313999,other,shipping_inquiry,False,auto,escalate,False,0.348,False,No close historical AmazonHelp reply
+365600,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.286,False,No close historical AmazonHelp reply
+350485,return_refund,shipping_inquiry,False,escalate,escalate,True,0.292,True,No close historical AmazonHelp reply
+412321,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.24,False,No close historical AmazonHelp reply
+717647,shipping_inquiry,shipping_inquiry,True,escalate,escalate,True,0.292,True,No close historical AmazonHelp reply
+793810,return_refund,shipping_inquiry,False,auto,escalate,False,0.158,False,No close historical AmazonHelp reply
+227913,delivery_failed,shipping_inquiry,False,escalate,escalate,True,0.429,True,No close historical AmazonHelp reply
+505026,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.158,False,No close historical AmazonHelp reply
+585813,delivery_failed,shipping_inquiry,False,escalate,escalate,True,0.227,True,No close historical AmazonHelp reply
+28401,delivery_failed,shipping_inquiry,False,escalate,escalate,True,0.19,True,No close historical AmazonHelp reply
+230653,return_refund,shipping_inquiry,False,escalate,escalate,True,0.25,True,No close historical AmazonHelp reply
+474291,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.194,False,Phone number in the tweet — don't handle in public
+144124,other,shipping_inquiry,False,auto,escalate,False,0.286,False,No close historical AmazonHelp reply
+74782,other,shipping_inquiry,False,auto,auto,True,0.6,False,Tracking / ETA — answerable from historical Amazon replies
+101768,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.417,False,No close historical AmazonHelp reply
+421249,other,shipping_inquiry,False,escalate,escalate,True,0.294,True,No close historical AmazonHelp reply
+180777,other,shipping_inquiry,False,auto,escalate,False,0.36,False,No close historical AmazonHelp reply
+191651,other,shipping_inquiry,False,auto,escalate,False,0.462,False,No close historical AmazonHelp reply
+367909,delivery_failed,shipping_inquiry,False,escalate,escalate,True,0.189,True,No close historical AmazonHelp reply
+280968,shipping_inquiry,shipping_inquiry,True,escalate,escalate,True,0.308,True,No close historical AmazonHelp reply
+704909,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.182,False,No close historical AmazonHelp reply
+98708,other,shipping_inquiry,False,escalate,escalate,True,0.217,True,No close historical AmazonHelp reply
+715473,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.214,False,No close historical AmazonHelp reply
+55061,delivery_failed,shipping_inquiry,False,escalate,escalate,True,0.25,True,No close historical AmazonHelp reply
+633675,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.269,False,No close historical AmazonHelp reply
+619294,delivery_failed,shipping_inquiry,False,escalate,escalate,True,0.286,True,No close historical AmazonHelp reply
+307918,shipping_inquiry,shipping_inquiry,True,auto,escalate,False,0.227,False,No close historical AmazonHelp reply
+379463,other,shipping_inquiry,False,auto,escalate,False,0.32,False,No close historical AmazonHelp reply
+579039,delivery_failed,shipping_inquiry,False,escalate,escalate,True,0.167,True,No close historical AmazonHelp reply
+583516,other,shipping_inquiry,False,auto,escalate,False,0.333,False,No close historical AmazonHelp reply
+15302,other,shipping_inquiry,False,auto,escalate,False,0.312,False,No close historical AmazonHelp reply
+562894,shipping_inquiry,delivery_failed,False,auto,escalate,False,0.571,False,Marked delivered or never arrived — needs account lookup
+554604,delivery_failed,delivery_failed,True,escalate,escalate,True,0.333,True,Marked delivered or never arrived — needs account lookup
+511685,shipping_inquiry,delivery_failed,False,auto,escalate,False,0.194,False,Marked delivered or never arrived — needs account lookup
+627702,delivery_failed,delivery_failed,True,escalate,escalate,True,0.304,True,Marked delivered or never arrived — needs account lookup
+470209,return_refund,delivery_failed,False,auto,escalate,False,0.364,False,Marked delivered or never arrived — needs account lookup
+279354,other,delivery_failed,False,escalate,escalate,True,0.333,True,Marked delivered or never arrived — needs account lookup
+403533,delivery_failed,delivery_failed,True,escalate,escalate,True,0.217,True,Marked delivered or never arrived — needs account lookup
+495924,shipping_inquiry,delivery_failed,False,auto,escalate,False,0.233,False,Marked delivered or never arrived — needs account lookup
+309930,shipping_inquiry,delivery_failed,False,auto,escalate,False,0.353,False,Marked delivered or never arrived — needs account lookup
+550571,delivery_failed,delivery_failed,True,escalate,escalate,True,0.229,True,Marked delivered or never arrived — needs account lookup
+394062,shipping_inquiry,delivery_failed,False,auto,escalate,False,0.5,False,Marked delivered or never arrived — needs account lookup
+599036,delivery_failed,delivery_failed,True,escalate,escalate,True,0.375,True,Marked delivered or never arrived — needs account lookup
+760409,shipping_inquiry,delivery_failed,False,auto,escalate,False,0.375,False,Marked delivered or never arrived — needs account lookup
+796483,delivery_failed,delivery_failed,True,escalate,escalate,True,0.4,True,Marked delivered or never arrived — needs account lookup
+788224,delivery_failed,delivery_failed,True,escalate,escalate,True,0.3,True,Marked delivered or never arrived — needs account lookup
+227362,cancel_modify,delivery_failed,False,auto,escalate,False,0.25,False,Marked delivered or never arrived — needs account lookup
+485345,delivery_failed,delivery_failed,True,escalate,escalate,True,0.231,True,Marked delivered or never arrived — needs account lookup
+105163,delivery_failed,delivery_failed,True,escalate,escalate,True,0.241,True,Marked delivered or never arrived — needs account lookup
+332024,delivery_failed,delivery_failed,True,escalate,escalate,True,0.35,True,Marked delivered or never arrived — needs account lookup
+169560,shipping_inquiry,delivery_failed,False,auto,escalate,False,0.25,False,Marked delivered or never arrived — needs account lookup
+103088,delivery_failed,delivery_failed,True,escalate,escalate,True,0.195,True,Marked delivered or never arrived — needs account lookup
+254642,other,delivery_failed,False,auto,escalate,False,0.333,False,Marked delivered or never arrived — needs account lookup
+128035,return_refund,delivery_failed,False,escalate,escalate,True,0.429,True,Marked delivered or never arrived — needs account lookup
+485338,delivery_failed,delivery_failed,True,escalate,escalate,True,0.19,True,Marked delivered or never arrived — needs account lookup
+30005,delivery_failed,delivery_failed,True,escalate,escalate,True,0.278,True,Marked delivered or never arrived — needs account lookup
+550518,shipping_inquiry,delivery_failed,False,auto,escalate,False,0.333,False,Marked delivered or never arrived — needs account lookup
+711639,shipping_inquiry,delivery_failed,False,auto,escalate,False,0.286,False,Marked delivered or never arrived — needs account lookup
+439253,return_refund,delivery_failed,False,escalate,escalate,True,0.25,True,Marked delivered or never arrived — needs account lookup
+420655,shipping_inquiry,delivery_failed,False,auto,escalate,False,0.286,False,Marked delivered or never arrived — needs account lookup
+63897,delivery_failed,delivery_failed,True,escalate,escalate,True,0.163,True,Marked delivered or never arrived — needs account lookup
+459915,shipping_inquiry,delivery_failed,False,auto,escalate,False,0.257,False,Marked delivered or never arrived — needs account lookup
+133858,other,delivery_failed,False,auto,escalate,False,0.4,False,Marked delivered or never arrived — needs account lookup
+206767,delivery_failed,delivery_failed,True,escalate,escalate,True,0.333,True,Marked delivered or never arrived — needs account lookup
+570785,delivery_failed,delivery_failed,True,escalate,escalate,True,0.276,True,Marked delivered or never arrived — needs account lookup
+757671,return_refund,delivery_failed,False,escalate,escalate,True,0.273,True,Marked delivered or never arrived — needs account lookup
+701384,return_refund,return_refund,True,escalate,escalate,True,0.25,True,No close historical AmazonHelp reply
+650054,account_prime,return_refund,False,escalate,escalate,True,0.292,True,No close historical AmazonHelp reply
+419643,product_quality,return_refund,False,escalate,escalate,True,0.231,True,No close historical AmazonHelp reply
+675181,return_refund,return_refund,True,escalate,escalate,True,0.222,True,No close historical AmazonHelp reply
+325824,return_refund,return_refund,True,auto,escalate,False,0.269,False,No close historical AmazonHelp reply
+796506,product_quality,return_refund,False,auto,escalate,False,0.36,False,No close historical AmazonHelp reply
+727804,return_refund,return_refund,True,escalate,escalate,True,0.207,True,No close historical AmazonHelp reply
+277207,return_refund,return_refund,True,escalate,escalate,True,0.278,True,No close historical AmazonHelp reply
+277870,return_refund,return_refund,True,escalate,escalate,True,0.28,True,No close historical AmazonHelp reply
+485376,return_refund,return_refund,True,auto,escalate,False,0.25,False,No close historical AmazonHelp reply
+206975,account_prime,return_refund,False,escalate,escalate,True,0.28,True,No close historical AmazonHelp reply
+166542,return_refund,return_refund,True,escalate,escalate,True,0.333,True,No close historical AmazonHelp reply
+234559,return_refund,return_refund,True,escalate,escalate,True,0.333,True,No close historical AmazonHelp reply
+612756,return_refund,return_refund,True,escalate,escalate,True,0.296,True,No close historical AmazonHelp reply
+461225,return_refund,return_refund,True,escalate,escalate,True,0.225,True,No close historical AmazonHelp reply
+78825,return_refund,return_refund,True,auto,escalate,False,0.4,False,No close historical AmazonHelp reply
+424997,return_refund,return_refund,True,escalate,escalate,True,0.238,True,No close historical AmazonHelp reply
+394469,other,return_refund,False,auto,escalate,False,0.316,False,No close historical AmazonHelp reply
+170990,return_refund,return_refund,True,auto,escalate,False,0.333,False,No close historical AmazonHelp reply
+462521,product_quality,return_refund,False,escalate,escalate,True,0.278,True,No close historical AmazonHelp reply
+434426,account_prime,return_refund,False,escalate,escalate,True,0.333,True,No close historical AmazonHelp reply
+422697,return_refund,return_refund,True,auto,escalate,False,0.296,False,No close historical AmazonHelp reply
+163492,return_refund,return_refund,True,escalate,escalate,True,0.244,True,No close historical AmazonHelp reply
+77353,return_refund,return_refund,True,auto,escalate,False,0.5,False,No close historical AmazonHelp reply
+594534,delivery_failed,return_refund,False,escalate,escalate,True,0.263,True,No close historical AmazonHelp reply
+382260,return_refund,return_refund,True,escalate,escalate,True,0.231,True,No close historical AmazonHelp reply
+336175,other,return_refund,False,auto,escalate,False,0.412,False,No close historical AmazonHelp reply
+205004,return_refund,return_refund,True,escalate,escalate,True,0.25,True,No close historical AmazonHelp reply
+382764,delivery_failed,return_refund,False,escalate,escalate,True,0.208,True,No close historical AmazonHelp reply
+734063,return_refund,return_refund,True,escalate,escalate,True,0.2,True,No close historical AmazonHelp reply
+726778,delivery_failed,return_refund,False,escalate,escalate,True,0.269,True,No close historical AmazonHelp reply
+257710,return_refund,return_refund,True,auto,escalate,False,0.227,False,No close historical AmazonHelp reply
+183589,return_refund,return_refund,True,auto,escalate,False,0.2,False,No close historical AmazonHelp reply
+476908,return_refund,return_refund,True,auto,escalate,False,0.286,False,No close historical AmazonHelp reply
+264669,return_refund,return_refund,True,auto,escalate,False,0.333,False,No close historical AmazonHelp reply
+273166,return_refund,return_refund,True,auto,escalate,False,0.318,False,No close historical AmazonHelp reply
+538606,account_prime,return_refund,False,escalate,escalate,True,0.275,True,No close historical AmazonHelp reply
+40421,return_refund,return_refund,True,auto,escalate,False,0.375,False,No close historical AmazonHelp reply
+654255,account_prime,return_refund,False,auto,escalate,False,0.3,False,No close historical AmazonHelp reply
+461293,return_refund,return_refund,True,auto,escalate,False,0.211,False,No close historical AmazonHelp reply
+379401,other,return_refund,False,auto,escalate,False,0.5,False,No close historical AmazonHelp reply
+391183,return_refund,return_refund,True,auto,escalate,False,0.28,False,No close historical AmazonHelp reply
+103083,return_refund,return_refund,True,auto,escalate,False,0.257,False,No close historical AmazonHelp reply
+392599,return_refund,return_refund,True,auto,escalate,False,0.304,False,No close historical AmazonHelp reply
+606181,return_refund,return_refund,True,escalate,escalate,True,0.273,True,No close historical AmazonHelp reply
+665688,cancel_modify,cancel_modify,True,auto,escalate,False,0.278,False,No close historical AmazonHelp reply
+359184,cancel_modify,cancel_modify,True,auto,escalate,False,0.3,False,No close historical AmazonHelp reply
+279009,cancel_modify,cancel_modify,True,auto,escalate,False,0.296,False,No close historical AmazonHelp reply
+729374,cancel_modify,cancel_modify,True,auto,escalate,False,0.261,False,No close historical AmazonHelp reply
+777182,cancel_modify,cancel_modify,True,auto,escalate,False,0.333,False,No close historical AmazonHelp reply
+215981,cancel_modify,cancel_modify,True,escalate,escalate,True,0.312,True,No close historical AmazonHelp reply
+180377,other,cancel_modify,False,escalate,escalate,True,0.2,True,No close historical AmazonHelp reply
+266045,other,cancel_modify,False,escalate,escalate,True,0.211,True,No close historical AmazonHelp reply
+83432,cancel_modify,cancel_modify,True,auto,escalate,False,0.259,False,No close historical AmazonHelp reply
+721297,other,cancel_modify,False,auto,escalate,False,0.35,False,No close historical AmazonHelp reply
+432917,cancel_modify,cancel_modify,True,auto,escalate,False,0.238,False,No close historical AmazonHelp reply
+69778,cancel_modify,cancel_modify,True,escalate,escalate,True,0.308,True,No close historical AmazonHelp reply
+180676,cancel_modify,cancel_modify,True,escalate,escalate,True,0.259,True,No close historical AmazonHelp reply
+800325,cancel_modify,cancel_modify,True,auto,escalate,False,0.261,False,No close historical AmazonHelp reply
+436881,account_prime,cancel_modify,False,auto,escalate,False,0.2,False,No close historical AmazonHelp reply
+419843,cancel_modify,cancel_modify,True,escalate,escalate,True,0.238,True,No close historical AmazonHelp reply
+38161,cancel_modify,cancel_modify,True,auto,escalate,False,0.28,False,No close historical AmazonHelp reply
+350951,delivery_failed,cancel_modify,False,escalate,escalate,True,0.25,True,No close historical AmazonHelp reply
+601289,cancel_modify,cancel_modify,True,auto,escalate,False,0.323,False,No close historical AmazonHelp reply
+748766,delivery_failed,cancel_modify,False,escalate,escalate,True,0.227,True,No close historical AmazonHelp reply
+756348,cancel_modify,cancel_modify,True,auto,escalate,False,0.3,False,No close historical AmazonHelp reply
+109935,cancel_modify,cancel_modify,True,auto,escalate,False,0.154,False,Phone number in the tweet — don't handle in public
+568352,account_prime,cancel_modify,False,auto,escalate,False,0.364,False,No close historical AmazonHelp reply
+272865,cancel_modify,cancel_modify,True,auto,escalate,False,0.318,False,No close historical AmazonHelp reply
+547936,cancel_modify,cancel_modify,True,auto,escalate,False,0.263,False,No close historical AmazonHelp reply
+537523,account_prime,account_prime,True,auto,escalate,False,0.25,False,No close historical AmazonHelp reply
+739681,account_prime,account_prime,True,auto,escalate,False,0.318,False,No close historical AmazonHelp reply
+539770,account_prime,account_prime,True,auto,escalate,False,0.182,False,No close historical AmazonHelp reply
+96812,account_prime,account_prime,True,auto,escalate,False,0.212,False,No close historical AmazonHelp reply
+179418,other,account_prime,False,auto,escalate,False,0.2,False,No close historical AmazonHelp reply
+387154,account_prime,account_prime,True,auto,escalate,False,0.125,False,No close historical AmazonHelp reply
+727381,account_prime,account_prime,True,escalate,escalate,True,0.333,True,Fraud / account compromise
+619077,account_prime,account_prime,True,escalate,escalate,True,0.25,True,No close historical AmazonHelp reply
+384165,shipping_inquiry,account_prime,False,auto,escalate,False,0.333,False,No close historical AmazonHelp reply
+124749,account_prime,account_prime,True,auto,escalate,False,0.292,False,No close historical AmazonHelp reply
+570108,delivery_failed,account_prime,False,escalate,escalate,True,0.333,True,No close historical AmazonHelp reply
+726116,account_prime,account_prime,True,escalate,escalate,True,0.267,True,No close historical AmazonHelp reply
+37616,account_prime,account_prime,True,escalate,escalate,True,0.278,True,No close historical AmazonHelp reply
+756311,account_prime,account_prime,True,auto,escalate,False,0.19,False,No close historical AmazonHelp reply
+695142,account_prime,account_prime,True,escalate,escalate,True,0.259,True,No close historical AmazonHelp reply
+419184,other,account_prime,False,auto,escalate,False,0.263,False,No close historical AmazonHelp reply
+438744,account_prime,account_prime,True,escalate,escalate,True,0.238,True,Fraud / account compromise
+179276,account_prime,account_prime,True,escalate,escalate,True,0.261,True,No close historical AmazonHelp reply
+224943,other,account_prime,False,auto,escalate,False,0.238,False,No close historical AmazonHelp reply
+349242,account_prime,account_prime,True,auto,escalate,False,0.304,False,No close historical AmazonHelp reply
+549359,shipping_inquiry,account_prime,False,escalate,escalate,True,0.171,True,No close historical AmazonHelp reply
+631601,shipping_inquiry,account_prime,False,auto,escalate,False,0.283,False,No close historical AmazonHelp reply
+487736,shipping_inquiry,account_prime,False,auto,escalate,False,0.29,False,No close historical AmazonHelp reply
+253380,account_prime,account_prime,True,auto,escalate,False,0.318,False,No close historical AmazonHelp reply
+619280,account_prime,account_prime,True,auto,escalate,False,0.286,False,No close historical AmazonHelp reply
+757133,account_prime,account_prime,True,escalate,escalate,True,0.227,True,No close historical AmazonHelp reply
+407890,account_prime,account_prime,True,escalate,escalate,True,0.286,True,No close historical AmazonHelp reply
+330157,shipping_inquiry,account_prime,False,auto,escalate,False,0.294,False,No close historical AmazonHelp reply
+86126,shipping_inquiry,account_prime,False,escalate,escalate,True,0.263,True,No close historical AmazonHelp reply
+124002,account_prime,account_prime,True,escalate,escalate,True,0.357,True,No close historical AmazonHelp reply
+765779,product_quality,product_quality,True,escalate,escalate,True,0.231,True,Physical defect usually needs order + replacement flow
+417770,product_quality,product_quality,True,escalate,escalate,True,0.261,True,Physical defect usually needs order + replacement flow
+261265,shipping_inquiry,product_quality,False,escalate,escalate,True,0.167,True,Physical defect usually needs order + replacement flow
+253349,other,product_quality,False,escalate,escalate,True,0.368,True,Physical defect usually needs order + replacement flow
+709044,product_quality,product_quality,True,auto,escalate,False,0.357,False,Physical defect usually needs order + replacement flow
+49921,other,product_quality,False,auto,escalate,False,0.294,False,Physical defect usually needs order + replacement flow
+136840,other,product_quality,False,auto,escalate,False,0.227,False,Physical defect usually needs order + replacement flow
+776021,product_quality,product_quality,True,escalate,escalate,True,0.286,True,Physical defect usually needs order + replacement flow
+789043,other,product_quality,False,auto,escalate,False,0.462,False,Physical defect usually needs order + replacement flow
+277186,other,product_quality,False,auto,escalate,False,0.333,False,Physical defect usually needs order + replacement flow
+394023,product_quality,product_quality,True,escalate,escalate,True,0.211,True,Physical defect usually needs order + replacement flow
+531682,product_quality,product_quality,True,auto,escalate,False,0.211,False,Physical defect usually needs order + replacement flow
+180520,account_prime,product_quality,False,escalate,escalate,True,0.286,True,Physical defect usually needs order + replacement flow
+557042,product_quality,product_quality,True,auto,escalate,False,0.2,False,Physical defect usually needs order + replacement flow
+712477,product_quality,product_quality,True,auto,escalate,False,0.308,False,Physical defect usually needs order + replacement flow
+149190,product_quality,product_quality,True,escalate,escalate,True,0.238,True,Physical defect usually needs order + replacement flow
+142980,product_quality,product_quality,True,escalate,escalate,True,0.333,True,Physical defect usually needs order + replacement flow
+590815,shipping_inquiry,product_quality,False,auto,escalate,False,0.281,False,Physical defect usually needs order + replacement flow
+579061,shipping_inquiry,product_quality,False,auto,escalate,False,0.286,False,Physical defect usually needs order + replacement flow
+359207,product_quality,product_quality,True,auto,escalate,False,0.316,False,Physical defect usually needs order + replacement flow
+554631,other,other,True,escalate,escalate,True,0.239,True,No close historical AmazonHelp reply
+355578,other,other,True,escalate,escalate,True,0.261,True,No close historical AmazonHelp reply
+439252,other,other,True,auto,escalate,False,0.455,False,No close historical AmazonHelp reply
+426978,other,other,True,auto,escalate,False,0.455,False,No close historical AmazonHelp reply
+777245,account_prime,other,False,escalate,escalate,True,0.333,True,No close historical AmazonHelp reply
+421875,other,other,True,auto,escalate,False,0.318,False,No close historical AmazonHelp reply
+180308,other,other,True,auto,escalate,False,0.304,False,No close historical AmazonHelp reply
+253955,shipping_inquiry,other,False,auto,escalate,False,0.462,False,No close historical AmazonHelp reply
+419454,other,other,True,auto,escalate,False,0.333,False,No close historical AmazonHelp reply
+169536,cancel_modify,other,False,auto,escalate,False,0.22,False,No close historical AmazonHelp reply
+182852,shipping_inquiry,other,False,auto,escalate,False,0.333,False,No close historical AmazonHelp reply
+738395,shipping_inquiry,other,False,auto,escalate,False,0.227,False,No close historical AmazonHelp reply
+249991,other,other,True,auto,escalate,False,0.4,False,No close historical AmazonHelp reply
+74832,other,other,True,escalate,auto,False,0.571,False,No high-risk pattern; try grounded reply then human if weak match
+38203,other,other,True,auto,escalate,False,0.222,False,No close historical AmazonHelp reply
+115815,other,other,True,auto,escalate,False,0.25,False,No close historical AmazonHelp reply
+504947,shipping_inquiry,other,False,auto,escalate,False,0.205,False,No close historical AmazonHelp reply
+527081,other,other,True,auto,escalate,False,0.243,False,No close historical AmazonHelp reply
+598026,other,other,True,auto,escalate,False,0.222,False,No close historical AmazonHelp reply
+344351,other,other,True,auto,escalate,False,0.0,False,No close historical AmazonHelp reply
+286792,other,other,True,escalate,escalate,True,0.333,True,No close historical AmazonHelp reply
+313708,shipping_inquiry,other,False,auto,escalate,False,0.238,False,No close historical AmazonHelp reply
+276182,shipping_inquiry,other,False,auto,escalate,False,0.261,False,No close historical AmazonHelp reply
+205110,shipping_inquiry,other,False,auto,escalate,False,0.444,False,No close historical AmazonHelp reply
+505774,shipping_inquiry,other,False,auto,escalate,False,0.235,False,No close historical AmazonHelp reply
+622475,other,other,True,escalate,escalate,True,0.318,True,No close historical AmazonHelp reply
+383273,other,other,True,escalate,escalate,True,0.167,True,No close historical AmazonHelp reply
+319339,shipping_inquiry,other,False,escalate,escalate,True,0.174,True,No close historical AmazonHelp reply
+248096,product_quality,other,False,auto,escalate,False,0.3,False,No close historical AmazonHelp reply
+779504,other,other,True,auto,escalate,False,0.286,False,No close historical AmazonHelp reply
+283981,other,other,True,auto,escalate,False,0.333,False,No close historical AmazonHelp reply
+780562,product_quality,other,False,auto,escalate,False,0.24,False,No close historical AmazonHelp reply
+582638,other,other,True,auto,escalate,False,0.417,False,No close historical AmazonHelp reply
+457681,other,other,True,escalate,escalate,True,0.5,True,No close historical AmazonHelp reply
+437341,other,other,True,escalate,escalate,True,0.28,True,No close historical AmazonHelp reply
+562908,other,other,True,auto,escalate,False,0.238,False,No close historical AmazonHelp reply
+29522,other,other,True,auto,escalate,False,0.3,False,No close historical AmazonHelp reply
+322005,other,other,True,auto,escalate,False,0.368,False,No close historical AmazonHelp reply
+232686,product_quality,other,False,auto,escalate,False,0.192,False,No close historical AmazonHelp reply
+395487,account_prime,other,False,escalate,escalate,True,0.273,True,No close historical AmazonHelp reply
+122034,other,other,True,auto,escalate,False,0.286,False,No close historical AmazonHelp reply
+319414,other,other,True,auto,escalate,False,0.35,False,No close historical AmazonHelp reply
+256705,delivery_failed,other,False,escalate,escalate,True,0.227,True,No close historical AmazonHelp reply
+150633,other,other,True,auto,auto,True,0.625,False,No high-risk pattern; try grounded reply then human if weak match
+304425,other,other,True,auto,escalate,False,0.143,False,No close historical AmazonHelp reply
