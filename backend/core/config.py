@@ -63,7 +63,17 @@ class Settings(BaseSettings):
 
     @property
     def cors_origin_list(self) -> list[str]:
-        return [origin.strip() for origin in self.cors_origins.split(",") if origin.strip()]
+        configured = [origin.strip().rstrip("/") for origin in self.cors_origins.split(",") if origin.strip()]
+        always = [
+            "http://localhost:3000",
+            "https://ai-observebility.vercel.app",
+            "https://ai-observebility-phi.vercel.app",
+        ]
+        seen: list[str] = []
+        for origin in [*configured, *always]:
+            if origin not in seen:
+                seen.append(origin)
+        return seen
 
     @property
     def supabase_configured(self) -> bool:
