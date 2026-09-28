@@ -34,6 +34,9 @@ export type ChatResponse = {
   total_latency_ms: number;
   total_tokens: number;
   total_cost_usd: number;
+  generation_cost_usd?: number | null;
+  embedding_cost_usd?: number | null;
+  evaluation_cost_usd?: number | null;
   is_flagged: boolean;
   flag_reason: string | null;
   route?: string;

@@ -34,8 +34,8 @@ export function CustomerSupport() {
         {posts.length === 0 && (
           <div className="border-b border-white/10 px-5 py-8">
             <p className="text-[20px] font-bold">What do you need help with?</p>
-            <p className="mt-2 max-w-lg text-[15px] leading-6 text-[#71767b]">
-              Write it the way you would mention @AmazonHelp. If we need an order id, we will ask.
+            <p className="mt-2 max-w-lg text-[15px] leading-6 break-words text-[#71767b]">
+              Tell us what happened. We’ll ask for the order id only when the reply depends on it.
             </p>
             <ul className="mt-5 space-y-2">
               {STARTERS.map((starter) => (
@@ -43,7 +43,7 @@ export function CustomerSupport() {
                   <button
                     type="button"
                     onClick={() => void postTweet(starter)}
-                    className="text-left text-[15px] text-[#1d9bf0] hover:underline"
+                    className="block w-full text-left text-[15px] break-words text-[#1d9bf0] hover:underline"
                   >
                     {starter}
                   </button>

@@ -36,3 +36,74 @@ button,
 textarea {
   font: inherit;
 }
+
+.landing-grid {
+  background-image:
+    linear-gradient(rgba(244, 245, 247, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(244, 245, 247, 0.045) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: radial-gradient(ellipse at center, black 20%, transparent 72%);
+}
+
+.landing-trace {
+  animation: trace-drift 28s ease-in-out infinite alternate;
+}
+
+.land-rise {
+  animation: land-rise 500ms ease both;
+}
+
+.land-delay {
+  animation-delay: 80ms;
+}
+
+.land-delay-2 {
+  animation-delay: 160ms;
+}
+
+.land-delay-3 {
+  animation-delay: 240ms;
+}
+
+.route-enter {
+  animation: route-in 380ms ease;
+}
+
+@keyframes trace-drift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-18px, 12px, 0);
+  }
+}
+
+@keyframes land-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes route-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-trace,
+  .land-rise,
+  .route-enter {
+    animation: none;
+  }
+}

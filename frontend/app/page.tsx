@@ -1,7 +1,5 @@
-"use client";
-
-import { Desk } from "@/components/Desk";
+import { LandingPage } from "@/components/landing/LandingPage";
 
 export default function Home() {
-  return <Desk />;
+  return <LandingPage />;
 }

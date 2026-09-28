@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "AmazonHelp",
-  description: "Customer tweets on the left. How each one was handled on the right.",
+  description: "See how AI understands a customer request, retrieves context, and decides what to send.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
